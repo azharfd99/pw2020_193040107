@@ -1,0 +1,20 @@
+body{
+    background: #e3f2fd ;
+      }
+.keterangan {
+    text-align: center;
+}
+.foto {
+    text-align: center;
+}
+.kembali{
+    text-align: center;
+}
+footer{
+    padding: 2px;
+}
+
+
+footer p{
+    font-size: 20px;
+}
