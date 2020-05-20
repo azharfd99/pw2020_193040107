@@ -29,7 +29,7 @@ function tambah($data)
 
     $query = "INSERT INTO makanan2
                 VALUES
-                ('', '$foto', '$nama', '$tgl_produksi', '$kadaluwarsa', '$harga')";
+                (null, '$foto', '$nama', '$tgl_produksi', '$kadaluwarsa', '$harga')";
 
     mysqli_query($conn, $query);
     return mysqli_affected_rows($conn);
@@ -81,7 +81,7 @@ function registrasi($data)
         $password = password_hash($password, PASSWORD_DEFAULT);
 
         $query = "INSERT INTO user VALUES
-                ('', '$username', '$password')";
+                (null, '$username', '$password')";
 
         mysqli_query($conn, $query);
 

@@ -52,7 +52,7 @@
             <?php else : ?>
         <?php foreach ($result as $makan) :?>
             <p class="nama">
-                 <a href="php/detail.php?id=<?= $makan['kode'] ?>">
+                 <a href="php/detail.php?kode=<?= $makan['kode'] ?>">
                     <?= $makan["nama"] ?>
                  </a>
             </p>
